@@ -5,7 +5,7 @@ The pipeline is primarily configured to run on a Slurm cluster environment using
 ## 1. Prerequisites
 Before running the pipeline, ensure you have the following installed and configured:
 * Nextflow (v24.10.2 or later recommended)
-* Conda/Miniconda (with a required environment, here we recommend creating your own conda env, you can follow our install script: bio_pipeline_env)
+* Conda/Miniconda (You will need a dedicated conda environment. We recommend using our install script to create the `bio_pipeline_env`)
 * Slurm Workload Manager (required for the cluster profile)
 * Java Runtime Environment (JRE) (required for Cromwell, Picard, and GATK)
 * VEP (v113.3 or later) (required for annotation)
